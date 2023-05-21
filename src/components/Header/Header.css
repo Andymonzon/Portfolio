@@ -45,6 +45,10 @@
     font-size: 16px;
 }
 
+.contianer-header-mobil{
+    z-index: 1000;
+}
+
 .container-btn-close {
     display: flex;
     justify-content: space-between;
@@ -75,7 +79,7 @@
     transition: .3s;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .contianer-header-mobil{
         display: none;
     }
@@ -96,6 +100,15 @@
         list-style: none;
     }
     
+    .contianer-header .nav ul li:hover{
+        transform: scale(1.2) !important;
+        transition: transform .2s;
+    }
+
+    .contianer-header .nav ul li{
+        transition: transform .2s;
+    }
+
     .contianer-header .nav ul li a{
         text-decoration: none;
         color: #000;
