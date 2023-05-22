@@ -94,11 +94,11 @@ const Header = () => {
                                     opacity: 1
                                 }}
                                 transition={{
-                                    duration: 2,
+                                    duration: 1,
                                     ease: 'easeInOut',
                                     delay: (index - .5) * 0.3,
                                     type: 'spring',
-                                    mass: .7
+                                    mass: 2
                                 }}
                             >
                                 <a href={route}>{label}</a>

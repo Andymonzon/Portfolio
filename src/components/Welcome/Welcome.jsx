@@ -67,6 +67,23 @@ const Welcome = () => {
                     className='description-welcome'>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor soluta, magnam quo cupiditate distinctio asperiores eum aliquid ea quam perferendis.</p>
                 </motion.div>
+                <motion.div
+                    initial={{
+                        scale: 0
+                    }}
+                    animate={{
+                        scale: 1
+                    }}
+                    transition={{
+                        duration: .5,
+                        delay: 1,
+                        type: 'spring',
+                        mass: 1
+                    }}
+                    className='btn-welcome-cv'
+                    >
+                    <a href='https://google.com' target='_black'>Ver CV</a>
+                </motion.div>
             </section>
             <motion.section
                 initial={{
