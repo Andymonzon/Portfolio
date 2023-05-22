@@ -5,7 +5,7 @@ import * as THREE from 'three';
 const Sphere = () => {
 
     const { camera } = useThree();
-    camera.position.z = 400;
+    camera.position.z = 425;
 
     const sphereRef = useRef();
 
@@ -37,7 +37,7 @@ const Sphere = () => {
     return (
         <points ref={sphereRef}>
             <bufferGeometry {...geometry} />
-            <pointsMaterial color={0x000} size={3} />
+            <pointsMaterial color={'#555'} size={3} />
         </points>
     );
 };

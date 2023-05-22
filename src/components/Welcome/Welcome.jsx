@@ -1,7 +1,7 @@
 import './Welcome.css'
 import { motion } from 'framer-motion'
-import svgWelcome from '../../assets/undraw_coding_re_iv62.svg'
 import { SphereAnimation } from '../SphereAnimation/SphereAnimation'
+import { TecAnimation } from '../TecAnimation/TecAnimation'
 
 const variants = {
     hidden: {
@@ -81,6 +81,7 @@ const Welcome = () => {
                 }}
                 className='section-welcomo-img'>
                 <SphereAnimation />
+                <TecAnimation />
             </motion.section>
         </div>
     )
