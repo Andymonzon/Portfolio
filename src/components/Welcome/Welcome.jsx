@@ -1,6 +1,7 @@
 import './Welcome.css'
 import { motion } from 'framer-motion'
 import svgWelcome from '../../assets/undraw_coding_re_iv62.svg'
+import { SphereAnimation } from '../SphereAnimation/SphereAnimation'
 
 const variants = {
     hidden: {
@@ -67,9 +68,20 @@ const Welcome = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor soluta, magnam quo cupiditate distinctio asperiores eum aliquid ea quam perferendis.</p>
                 </motion.div>
             </section>
-            <section className='section-welcomo-img'>
-                
-            </section>
+            <motion.section
+                initial={{
+                    opacity: 0
+                }}
+                animate={{
+                    opacity: 1
+                }}
+                transition={{
+                    duration: 1.5,
+                    delay: 0.2
+                }}
+                className='section-welcomo-img'>
+                <SphereAnimation />
+            </motion.section>
         </div>
     )
 }
