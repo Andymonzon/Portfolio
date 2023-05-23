@@ -79,6 +79,22 @@
     transition: .3s;
 }
 
+.no-scroll{
+    overflow: hidden;
+}
+
+@media screen and (min-width: 425px){
+    .container-menu{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container-menu{
+        width: 40%;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .contianer-header-mobil{
         display: none;

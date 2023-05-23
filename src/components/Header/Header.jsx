@@ -61,10 +61,12 @@ const Header = () => {
 
     const handleClick = () => {
         setIsOpen(true)
+        document.body.classList.add('no-scroll')
     }
 
     const closeModal = () => {
         setIsOpen(false)
+        document.body.classList.remove('no-scroll')
     }
 
     return (
@@ -134,7 +136,7 @@ const Header = () => {
                                             variants={variantsListMenu}
                                             key={route}
                                         >
-                                            <a href={route}>{label}</a>
+                                            <a onClick={closeModal} href={route}>{label}</a>
                                         </motion.li>
                                     ))}
                                 </ul>

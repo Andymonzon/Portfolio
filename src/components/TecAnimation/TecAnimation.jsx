@@ -12,7 +12,6 @@ const TecAnimation = () => {
                 "CSS",
                 "JavaScript",
                 "React",
-                "NextJS",
                 "NodeJS",
                 "MySQL"
             ]
