@@ -6,8 +6,10 @@ const Main = () => {
     return(
         <main className="main">
             <Welcome />
+            <div id='about_me' className="separator"></div>
             <About/>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <div id='experience' className="separator"></div>
+
         </main>
     )
 }

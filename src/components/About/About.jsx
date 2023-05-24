@@ -29,28 +29,44 @@ const About = () => {
 
     return (
         <div className='about'>
-            <section
+            <motion.section
+                initial="offscreen"
+                whileInView="onscreen"
+                viewport={{ once: true, amount: 0.2 }}
+                variants={cardVariants}
                 className='section-about'
-                id='about_me'
             >
                 <motion.div
-                    initial="offscreen"
-                    whileInView="onscreen"
-                    viewport={{ once: true, amount: 0.2 }}
-                    variants={cardVariants}
                     className='container-about'>
                     <div className='container-about-title'>
                         <h2 className='title-about'>Sobre mí</h2>
                         <ScrollItem scrollYProgress={scrollYProgress} />
                     </div>
-                    <div>
+                    <div className='container-description-about'>
                         <p className='description-about'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias amet assumenda impedit odio sapiente quas doloribus repudiandae minima sint facilis quisquam quos sed est dolorum reiciendis corporis nesciunt cum rerum nisi sunt nemo, nihil veniam optio. Unde vero non, reprehenderit, dicta blanditiis quia atque obcaecati veniam praesentium voluptatum labore.
                         </p>
                         <p ref={ref} className='description-about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos libero harum earum. Quam labore ea natus deleniti ut delectus amet!</p>
                     </div>
+                    <div className='container-ul-about-1024'>
+                        <ul>
+                            <div>
+                                <li><span style={{ color: '#FF5733' }} className='icon-about-1024'><i className="fa-brands fa-html5"></i></span>HTML</li>
+                                <li><span style={{ color: '#2965f1' }} className='icon-about-1024'><i className="fa-brands fa-css3"></i></span>CSS</li>
+                                <li><span style={{ color: '#f80' }} className='icon-about-1024'><i className="fa-brands fa-js"></i></span>JavaScript</li>
+                            </div>
+                            <div>
+                                <li><span style={{ color: '#61DBFB' }} className='icon-about-1024'><i className="fa-brands fa-react"></i></span>React</li>
+                                <li><span style={{ color: '#68a063' }} className='icon-about-1024'><i className="fa-brands fa-node-js"></i></span>NodeJs</li>
+                                <li><span style={{ color: '#00758F' }} className='icon-about-1024'><i className="fa-solid fa-database"></i></span>MySql</li>
+                            </div>
+                        </ul>
+                    </div>
                 </motion.div>
-            </section>
+                <div className='container-img-1024'>
+                    <img className='svg-1024-about' src={svgAbout} alt="" />
+                </div>
+            </motion.section>
             <motion.div
                 initial={{
                     y: 100,
@@ -61,7 +77,7 @@ const About = () => {
                     opacity: 1
                 }}
                 transition={{
-                    duration: 0.7
+                    duration: 0.5
                 }}
                 viewport={{ once: true }}
                 className='container-img-about'>
@@ -89,7 +105,7 @@ const About = () => {
                     opacity: 1
                 }}
                 transition={{
-                    duration: 0.7
+                    duration: 0.5
                 }}
                 viewport={{ once: true }}
                 className='container-img-about-768'>
