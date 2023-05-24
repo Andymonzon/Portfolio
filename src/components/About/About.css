@@ -1,5 +1,5 @@
 .about{
-    margin-top: 50px;
+    margin-top: 2rem;
 }
 
 .title-about{
@@ -129,12 +129,9 @@
         align-items: center;
         justify-content: center;
     }
-
+    
     .section-about{
         width: 80%;
-    }
-
-    .section-about{
         box-sizing: border-box;
         box-shadow: 0 0 5px #888;
         border-radius: 15px;

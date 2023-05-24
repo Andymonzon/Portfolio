@@ -28,7 +28,7 @@ const About = () => {
     });
 
     return (
-        <div className='about'>
+        <div className='about' id='about_me'>
             <motion.section
                 initial="offscreen"
                 whileInView="onscreen"
