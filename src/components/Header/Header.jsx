@@ -82,7 +82,7 @@ const Header = () => {
                         type: 'spring',
                         mass: 1
                     }}
-                >Logo</motion.h1>
+                >AM</motion.h1>
                 <nav className='nav'>
                     <ul>
                         {links.map(({ label, route }, index) => (

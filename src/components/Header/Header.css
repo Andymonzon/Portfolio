@@ -5,6 +5,10 @@
     padding: 10px;
 }
 
+.contianer-header h1{
+    letter-spacing: 5px;
+}
+
 .nav {
     display: none;
 }
