@@ -18,6 +18,7 @@
     backdrop-filter: blur(7px);
     display: flex;
     align-items: center;
+    padding: 20px 0;
 }
 
 .container-img-about{
@@ -110,10 +111,6 @@
 
     .scroll-circle{
         display: none;
-    }
-
-    .title-about{
-        margin-bottom: 20px;
     }
 
 }

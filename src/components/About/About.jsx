@@ -1,8 +1,6 @@
 import svgAbout from '../../assets/undraw_programming_re_kg9v.svg'
-import { useRef } from 'react'
-import { ScrollItem } from '../ScrollItem/ScrollItem'
 import './About.css'
-import { motion, useScroll } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const cardVariants = {
     offscreen: {
@@ -19,14 +17,6 @@ const cardVariants = {
 };
 
 const About = () => {
-
-    const ref = useRef(null);
-
-    const { scrollYProgress } = useScroll({
-        target: ref,
-        offset: ["end end", "start start"]
-    });
-
     return (
         <div className='about' id='about_me'>
             <motion.section
@@ -40,13 +30,12 @@ const About = () => {
                     className='container-about'>
                     <div className='container-about-title'>
                         <h2 className='title-about'>Sobre mí</h2>
-                        <ScrollItem scrollYProgress={scrollYProgress} />
                     </div>
                     <div className='container-description-about'>
                         <p className='description-about'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias amet assumenda impedit odio sapiente quas doloribus repudiandae minima sint facilis quisquam quos sed est dolorum reiciendis corporis nesciunt cum rerum nisi sunt nemo, nihil veniam optio. Unde vero non, reprehenderit, dicta blanditiis quia atque obcaecati veniam praesentium voluptatum labore.
                         </p>
-                        <p ref={ref} className='description-about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos libero harum earum. Quam labore ea natus deleniti ut delectus amet!</p>
+                        <p className='description-about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos libero harum earum. Quam labore ea natus deleniti ut delectus amet!</p>
                     </div>
                     <div className='container-ul-about-1024'>
                         <ul>

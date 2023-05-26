@@ -1,8 +1,8 @@
-.experience{
+.projects{
     margin-top: 9rem;
 }
 
-.container-title-experience{
+.container-title-projects{
     position: sticky;
     top: 0;
     background-color: #e5e5e566;
@@ -12,28 +12,26 @@
     padding: 20px 0;
 }
 
-.container-description-experience{
+.container-description-projects{
     font-weight: bold;
     font-size: 15px;
 }
 
 @media screen and (min-width: 768px) {
-    .container-title-experience{
+    .container-title-projects{
         position: static;
-        display: flex;
-        align-items: center;
     }
 }
 
 @media screen and (min-width: 1024px) {
 
-    .experience{
+    .projects{
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .section-experience{
+    .section-projects{
         width: 80%;
         box-sizing: border-box;
         box-shadow: 0 0 5px #888;
@@ -41,7 +39,7 @@
         padding: 20px;
     }
 
-    .container-description-experience{
+    .container-description-projects{
         font-weight: 500;
     }
 }
