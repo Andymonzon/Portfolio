@@ -32,10 +32,15 @@ const About = () => {
                         <h2 className='title-about'>Sobre mí</h2>
                     </div>
                     <div className='container-description-about'>
-                        <p className='description-about'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias amet assumenda impedit odio sapiente quas doloribus repudiandae minima sint facilis quisquam quos sed est dolorum reiciendis corporis nesciunt cum rerum nisi sunt nemo, nihil veniam optio. Unde vero non, reprehenderit, dicta blanditiis quia atque obcaecati veniam praesentium voluptatum labore.
+                        <p className='description-about presentation-color'>
+                            Hola! Soy Andrés, tengo 19 años y nací en Argentina.
                         </p>
-                        <p className='description-about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos libero harum earum. Quam labore ea natus deleniti ut delectus amet!</p>
+                        <p className='description-about'>
+                            Soy desarrollador web Fullstack, estudié en la <a className='link-presentation' href="https://utn.edu.ar/es/" target='_blank' rel='noreferrer'>UTN</a> obteniendo una diplomatura. También he participado en el programa de <a className='link-presentation' href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target='_black' rel='noreferrer'>Argentina 4.0</a>. Soy muy apasionado por la tecnología, desde pequeño siempre me interesó el desarrollo de software. Actualmente sigo perfeccionando los lenguajes ya adquiridos y aprendiendo nuevas tecnologías.
+                        </p>
+                        <p className='description-about'>
+                            En mi tiempo libre me gusta estar con mi familia y mascotas, entrenar, hacer basquet y mirar series mientras como pizza 🍕
+                        </p>
                     </div>
                     <div className='container-ul-about-1024'>
                         <ul>

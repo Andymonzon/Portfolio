@@ -66,6 +66,25 @@
     display: none;
 }
 
+.container-description-about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.presentation-color{
+    font-weight: 900 !important;
+}
+
+.link-presentation{
+    text-decoration: none;
+    color: #00758f;
+}
+
+.link-presentation:hover{
+    color: #00333f;
+}
+
 @media screen and (min-width: 768px) {
 
     .container-img-about{
@@ -176,4 +195,5 @@
     .description-about{
         font-weight: 500;
     }
+
 }

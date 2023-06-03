@@ -34,7 +34,7 @@ const Projects = () => {
                     <h2>Proyectos</h2>
                 </div>
                 <div className='container-description-projects'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto exercitationem illum eum distinctio neque nulla soluta id commodi aliquam ullam!</p>
+                    <p>Acá te dejo algunos de los proyectos realizados por mí</p>
                 </div>
                 <div className='container-card-projects'>
                     <CardProjects projectsObj={projectsObj} />

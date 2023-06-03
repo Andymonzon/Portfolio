@@ -4,8 +4,12 @@
     padding-top: 3rem;
 }
 
+.container-text-welcome{
+    margin-top: 70px;
+}
+
 .text-card-welcome h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
 }
 
@@ -14,48 +18,37 @@
 }
 
 .text-card-welcome h4 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     margin-bottom: 15px;
-}
-
-.description-welcome p {
-    font-size: 1rem;
-    font-weight: 600;
 }
 
 .section-welcomo-img {
     display: none;
 }
 
-.btn-welcome-cv {
-    box-sizing: border-box;
-    margin-top: 2rem;
-}
-
-.btn-welcome-cv a {
-    border: 1px solid #000;
-    border-radius: 8px;
-    padding: 7px 30px;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-    color: #000;
-}
-
 @media screen and (min-width: 425px) {
+
+    .text-card-welcome h2 {
+        font-size: 2rem;
+    }
+
     .text-card-welcome h3 {
-        font-size: 2.7rem;
+        font-size: 4.5rem;
     }
 
     .text-card-welcome h4 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         margin-bottom: 1.5rem;
     }
 
-    .description-welcome p {
-        width: 90%;
-        font-size: 1.15rem;
+    .container-text-welcome{
+        margin-top: 30px;
     }
+    
+    .container-about{
+        margin-top: 100px;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -63,19 +56,23 @@
         height: calc(100vh - 90px);
     }
 
+    .container-text-welcome{
+        margin-top: 50px;
+    }
+
+    .text-card-welcome h2 {
+        font-size: 2rem;
+    }
+
     .text-card-welcome h3 {
-        font-size: 3.3rem;
+        font-size: 5.3rem;
     }
 
     .text-card-welcome h4 {
-        font-size: 3rem;
+        font-size: 4.5rem;
         margin-bottom: 1.5rem;
     }
 
-    .description-welcome p {
-        width: 60%;
-        font-size: 1.25rem;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -85,7 +82,7 @@
     }
 
     .text-card-welcome h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .text-card-welcome h3 {
@@ -94,16 +91,6 @@
 
     .text-card-welcome h4 {
         font-size: 50px;
-    }
-
-    .description-welcome p {
-        width: 100%;
-        font-size: 20px;
-        font-weight: 500;
-    }
-
-    .description-welcome {
-        width: 100%;
     }
 
     .container-welcome {
@@ -143,9 +130,12 @@
         width: 100%;
     }
 
-    .btn-welcome-cv a:hover{
-        color: #f1f1f1;
-        background-color: #000;
-        transition: color 0.6s, background-color 0.6s, border-color 0.6s;
+    .container-text-welcome{
+        margin-top: 0;
     }
+
+    .container-about{
+        margin-top: 0px;
+    }
+
 }
