@@ -9,10 +9,6 @@ const links = [
         route: '#about_me'
     },
     {
-        label: 'Experiencia',
-        route: '#experience'
-    },
-    {
         label: 'Proyectos',
         route: '#projects'
     },

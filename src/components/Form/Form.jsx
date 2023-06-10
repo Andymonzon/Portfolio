@@ -52,13 +52,13 @@ const Form = () => {
         }
 
         if (!form.user_email.trim()) {
-            errors.user_email = 'EL campo "Email" es requerido'
+            errors.user_email = 'El campo "Email" es requerido'
         } else if (!regexEmail.test(form.user_email.trim())) {
             errors.user_email = 'El campo "Email" es incorrecto'
         }
 
         if (!form.message.trim()) {
-            errors.message = 'EL campo "Comentario" es requerido'
+            errors.message = 'El campo "Comentario" es requerido'
         } else if (!regexComments.test(form.message.trim())) {
             errors.message = 'El campo "Comentario" no debe exceder los 600 caracteres'
         }

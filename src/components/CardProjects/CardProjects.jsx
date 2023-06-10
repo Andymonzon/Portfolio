@@ -26,8 +26,8 @@ const CardProjects = ({ projectsObj }) => {
                         }
                     }}
                     key={project.id}>
-                    <a href="" target='_black' rel='noreferrer'>
-                        <div>
+                    <a href={project.link} target='_black' rel='noreferrer'>
+                        <div className='card-projects-li'>
                             <img className='img-projects-card' src={project.img} alt={project.title} />
                             <div className='text'>
                                 <h3 className='title-projec-card'>{project.title}</h3>

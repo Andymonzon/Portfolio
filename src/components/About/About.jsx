@@ -32,14 +32,17 @@ const About = () => {
                         <h2 className='title-about'>Sobre mí</h2>
                     </div>
                     <div className='container-description-about'>
-                        <p className='description-about presentation-color'>
-                            Hola! Soy Andrés, tengo 19 años y nací en Argentina.
+                        <p className='description-about'>
+                            Soy una persona responsable, comprometida y apasionada por la tecnología.
                         </p>
                         <p className='description-about'>
-                            Soy desarrollador web Fullstack, estudié en la <a className='link-presentation' href="https://utn.edu.ar/es/" target='_blank' rel='noreferrer'>UTN</a> obteniendo una diplomatura. También he participado en el programa de <a className='link-presentation' href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target='_black' rel='noreferrer'>Argentina 4.0</a>. Soy muy apasionado por la tecnología, desde pequeño siempre me interesó el desarrollo de software. Actualmente sigo perfeccionando los lenguajes ya adquiridos y aprendiendo nuevas tecnologías.
+                            Realicé mis estudié en la <a className='link-presentation' href="https://utn.edu.ar/es/" target='_blank' rel='noreferrer'>Universidad Tecnológica Nacional</a>. He participado en el programa de <a className='link-presentation' href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target='_black' rel='noreferrer'>Argentina 4.0</a>.
                         </p>
                         <p className='description-about'>
-                            En mi tiempo libre me gusta estar con mi familia y mascotas, entrenar, hacer basquet y mirar series mientras como pizza 🍕
+                            Actualmente sigo perfeccionando mis conocimientos ya adquiridos y aprendiendo nuevos lenguajes.
+                        </p>
+                        <p className='description-about'>
+                            Debajo puedes ver algunas tecnologías que utilizo.
                         </p>
                     </div>
                     <div className='container-ul-about-1024'>

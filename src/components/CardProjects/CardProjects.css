@@ -73,4 +73,23 @@
         font-weight: 500;
     }
     
+    .ul-card-projects li{
+        width: 100%;
+    }
+
+    .img-projects-card{
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .card-projects-li{
+        display: flex;
+    }
+
+    .ul-card-projects{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
