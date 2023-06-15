@@ -28,7 +28,7 @@ const projectsObj = [
         title: 'Página web de Películas y Series',
         description: 'Página que permite buscar peliculas y series, brindando informacion al respecto. Creada con React, tailwindcss y la API de themoviedb (sólo para PC)',
         tec: ['React', 'Tailwindcss', 'Themoviedb'],
-        link: 'https://github.com/Andymonzon/Portfolio'
+        link: 'https://github.com/Andymonzon/peliculasReact'
     }
 ]
 
